@@ -1,4 +1,4 @@
-def sao_anagramas(string1, string2):
+def sao_anagramas(string1 = "", string2 = ""):
     #TODO:
     s1 = string1.replace(" ", "").lower()
     s2 = string2.replace(" ", "").lower()
