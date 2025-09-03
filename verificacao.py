@@ -3,6 +3,10 @@ def sao_anagramas(string1, string2):
     s1 = string1.replace(" ", "").lower()
     s2 = string2.replace(" ", "").lower()
 
+    if not s1 and not s2:
+        return True
+    if not s1 or not s2:
+        return False
     if len(s1) != len(s2):
         return False
 
