@@ -1,4 +1,4 @@
-def cifra_de_cesar(texto, deslocamento):
+def cifra_de_cesar(texto="", deslocamento=0):
     resultado = ""
     for char in texto:
         if char.isalpha():
@@ -12,3 +12,4 @@ def cifra_de_cesar(texto, deslocamento):
 print(cifra_de_cesar("abc", 2))               
 print(cifra_de_cesar("xyz", 3))                
 print(cifra_de_cesar("Ataque ao Amanhecer!", 5))
+print(cifra_de_cesar())
